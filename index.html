@@ -3,7 +3,8 @@
 	<head>
 		<title>Da Gloopy RPG</title>
 		<link rel="icon" href="/public/favicon.ico">
-		<script type="module" src="/public/main.js"></script>
+		<link rel="stylesheet" href="/public/css/main.css">
+		<script type="module" src="/src/main.js"></script>
 
 		<style>
 			html {
@@ -17,6 +18,7 @@
 				margin: 0;
 				padding: 0;
 
+				background-color: var(--bg);
 				display: grid;
 				grid-template-columns: 1fr 4fr 1fr;
 				grid-template-rows: 20em auto;
@@ -27,11 +29,10 @@
 			}
 
 			#bookshelf {
-				background-color: beige;
+				background-color: var(--light-bg);
 			}
 
 			body aside {
-				background-color: brown;
 			}
 		</style>
 	</head>
